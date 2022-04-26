@@ -6,7 +6,7 @@ module "charlie-aft-test-alpha-01" {
     AccountName  = "charlie-aft-test-alpha-01"
     # Syntax for top-level OU
     # Syntax for nested OU
-    ManagedOrganizationalUnit = "Alpha (ou-8p8k-5szl6fnl)"
+    ManagedOrganizationalUnit = "Alpha (ou-8p8k-va834f87)"
     SSOUserEmail     = "charlie-aft-test-alpha-01@willardstanley.com"
     SSOUserFirstName = "Alpha"
     SSOUserLastName  = "One"
@@ -36,7 +36,7 @@ module "charlie-aft-test-alpha-02" {
     AccountEmail = "charlie-aft-test-alpha-02@willardstanley.com"
     AccountName  = "charlie-aft-test-alpha-02"
     # Syntax for top-level OU
-    ManagedOrganizationalUnit = "Alpha (ou-8p8k-5szl6fnl)"
+    ManagedOrganizationalUnit = "Alpha (ou-8p8k-va834f87)"
     # Syntax for nested OU
     SSOUserEmail     = "charlie-aft-test-alpha-02@willardstanley.com"
     SSOUserFirstName = "Alpha"
@@ -67,7 +67,7 @@ module "charlie-aft-test-alpha-03" {
     AccountEmail = "charlie-aft-test-alpha-03@willardstanley.com"
     AccountName  = "charlie-aft-test-alpha-03"
     # Syntax for top-level OU
-    ManagedOrganizationalUnit = "Alpha (ou-8p8k-5szl6fnl)"
+    ManagedOrganizationalUnit = "Alpha (ou-8p8k-va834f87)"
     # Syntax for nested OU
     SSOUserEmail     = "charlie-aft-test-alpha-03@willardstanley.com"
     SSOUserFirstName = "Alpha"
@@ -98,7 +98,7 @@ module "charlie-aft-test-alpha-04" {
     AccountEmail = "charlie-aft-test-alpha-04@willardstanley.com"
     AccountName  = "charlie-aft-test-alpha-04"
     # Syntax for top-level OU
-    ManagedOrganizationalUnit = "Alpha (ou-8p8k-5szl6fnl)"
+    ManagedOrganizationalUnit = "Alpha (ou-8p8k-va834f87)"
     # Syntax for nested OU
     SSOUserEmail     = "charlie-aft-test-alpha-04@willardstanley.com"
     SSOUserFirstName = "Alpha"
