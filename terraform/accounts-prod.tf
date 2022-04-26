@@ -6,11 +6,10 @@ module "charlie-aft-test-prod-01" {
     AccountEmail = "charlie-aft-test-prod-01@willardstanley.com"
     AccountName  = "charlie-aft-test-prod-01"
     # Syntax for top-level OU
-    ManagedOrganizationalUnit = "Sandbox"
     # Syntax for nested OU
-    # ManagedOrganizationalUnit = "Sandbox (ou-xfe5-a8hb8ml8)"
+    ManagedOrganizationalUnit = "Sandbox (ou-8p8k-obkjkfyy)"
     SSOUserEmail     = "charlie-aft-test-prod-01@willardstanley.com"
-    SSOUserFirstName = "Alpha"
+    SSOUserFirstName = "Prod"
     SSOUserLastName  = "One"
   }
 

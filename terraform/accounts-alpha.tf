@@ -5,9 +5,8 @@ module "charlie-aft-test-alpha-01" {
     AccountEmail = "charlie-aft-test-alpha-01@willardstanley.com"
     AccountName  = "charlie-aft-test-alpha-01"
     # Syntax for top-level OU
-    ManagedOrganizationalUnit = "Sandbox"
     # Syntax for nested OU
-    # ManagedOrganizationalUnit = "Sandbox (ou-xfe5-a8hb8ml8)"
+    ManagedOrganizationalUnit = "Sandbox (ou-8p8k-obkjkfyy)"
     SSOUserEmail     = "charlie-aft-test-alpha-01@willardstanley.com"
     SSOUserFirstName = "Alpha"
     SSOUserLastName  = "One"
@@ -37,12 +36,11 @@ module "charlie-aft-test-alpha-02" {
     AccountEmail = "charlie-aft-test-alpha-02@willardstanley.com"
     AccountName  = "charlie-aft-test-alpha-02"
     # Syntax for top-level OU
-    ManagedOrganizationalUnit = "Sandbox"
+    ManagedOrganizationalUnit = "Sandbox (ou-8p8k-obkjkfyy)"
     # Syntax for nested OU
-    # ManagedOrganizationalUnit = "Sandbox (ou-xfe5-a8hb8ml8)"
     SSOUserEmail     = "charlie-aft-test-alpha-02@willardstanley.com"
     SSOUserFirstName = "Alpha"
-    SSOUserLastName  = "One"
+    SSOUserLastName  = "Two"
   }
 
   account_tags = {
